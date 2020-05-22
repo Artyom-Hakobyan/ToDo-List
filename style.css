@@ -1,0 +1,148 @@
+.body {
+    background-image: url();
+}
+
+.header {
+    background-image: url(./header.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 800px;
+    position: relative;
+    height: 94px;
+    width: 800px;
+    top: 21px;
+    left: 41px;
+    padding-top: 5px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+h1 {
+    text-align: center;
+    margin: 5px;
+    text-decoration: underline;
+    color: white;
+}
+
+#input {
+    position: relative;
+    width: 739px;
+    margin: 2px;
+    height: 21px;
+    left: 8px;
+}
+
+#activities {
+    position: relative;
+    width: 759px;
+    height: auto;
+    top: 16px;
+    left: 41px;
+    padding-top: 12px;
+    padding-bottom: 26px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+#activities li {
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+    left: -26px;
+    list-style: none;
+    margin: 5px 5px 0px 5px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    height: 24;
+    padding-left: 10px;
+}
+
+#activities li:hover {
+    border-left: 7px solid rgb(149, 194, 154);
+    text-decoration: line-through;
+}
+
+#done li.checked {
+    text-decoration: line-through;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 2px 6px 2px 6px;
+  }
+  
+.close:hover {
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+}
+
+#done {
+    background-color: rgb(149, 194, 154);
+    position: relative;
+    height: auto;
+    width: 800px;
+    left: 41px;
+    margin-top: 25px;
+    padding-bottom: 18px;
+    padding-top: 11px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+#done li {
+    background-color: white;
+    position: relative;
+    left: 14px;
+    list-style: none;
+    margin: 5px 5px 0px 5px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    height: 24px;
+    width: 747px;
+    padding-left: 10px;
+}
+
+#doneHeader {
+    text-align: center;
+    text-decoration: underline;
+    position: relative;
+    right: 20px;
+    color: black;
+}
+
+#doneCounter {
+    float: right;
+    position: relative;
+    bottom: 48px;
+    right: 335px;
+    font-size: 221%;
+    text-decoration: none;
+    color: black;
+}
+
+#activitiesCounter {
+    float: right;
+    position: relative;
+    bottom: 50px;
+    right: 214px;
+    font-size: 221%;
+    text-decoration: none;
+}
+
+button {
+    float: right;
+    left: 20px;
+    position: relative;
+    bottom: 23px;
+}
